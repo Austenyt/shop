@@ -19,12 +19,14 @@
             <div class="row">
                 <div class="col-sm-8 col-md-7 py-4">
                     <h4 class="text-white">О нас</h4>
-                    <p class="text-muted">Интернет-магазин полезных вещей</p>
+                    <p class="text-muted">We're there for you to make your life even better! Stick around to check out our
+                    best discounts and giveaways!</p>
                 </div>
                 <div class="col-sm-4 offset-md-1 py-4">
                     <h4 class="text-white">Меню</h4>
                     <ul class="list-unstyled">
                         <li><a href="{% url 'goods:index' %}" class="text-white">Главная</a></li>
+                        <li><a href="{% url 'goods:contact' %}" class="text-white">Контакты</a></li>
                         <li><a href="{% url 'goods:categories' %}" class="text-white">Категории</a></li>
                     </ul>
                 </div>
@@ -41,7 +43,7 @@
                 </svg>
                 <strong>Магазин</strong>
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader"
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader"
                     aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>

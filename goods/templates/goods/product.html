@@ -1,0 +1,12 @@
+{% extends 'goods/base.html' %}
+{% load my_tags %}
+{% block content %}
+  <div class="product-card">
+    <img src="{% mymedia product.image %}">
+    <h2>{{ product.name }}</h2>
+    <p>{{ product.description }}</p>
+    <p>Price: {{ product.price }}</p>
+    <p>Category: {{ product.category }}</p>
+    <!-- Дополнительные данные о товаре, если нужно -->
+  </div>
+{% endblock %}
